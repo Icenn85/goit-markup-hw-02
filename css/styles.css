@@ -1,0 +1,109 @@
+/* цвет основного текста #212121; */
+/* цвет абзацев #757575; */
+/* белый #FFFFFF; */
+/* акцент #2196F3; */
+/* контакты в футере rgba(255, 255, 255, 0.6); белый #FFFFFF; #2196f3; */
+/* цвет логотипа #000000; и #2196f3;*/
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
+  --footer-color: rgba(255, 255, 255, 0.6);
+  --logo-primary-color: #000000;
+  --logo-accent-color: #2196f3;
+  --bgc-button-secondary: #f5f4fa;
+}
+
+body {
+  background-color: #ffffff;
+  color: var(--primary-text-color);
+}
+
+ul {
+  list-style: none;
+}
+
+.logo {
+  color: var(--logo-primary-color);
+}
+
+.logo-part {
+  color: var(--logo-accent-color);
+}
+
+/* Site nav */
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+/* Contact */
+.contact .link {
+  color: var(--primary-text-color);
+}
+
+.contact .link:hover,
+.contact .link:focus {
+  color: var(--accent-color);
+}
+
+/* Hero */
+.hero-title {
+  color: #212121;
+}
+
+/* Section */
+.section-title {
+  color: var(--title-text-color);
+}
+
+/* Feature */
+.feature-list .title {
+  color: var(--title-text-color);
+}
+
+/* Team */
+.team-list .title {
+  color: var(--title-text-color);
+}
+
+/* Button */
+.button {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+
+.button.secondary {
+  color: var(--title-text-color);
+  background-color: var(--bgc-button-secondary);
+}
+
+/* Footer */
+.logo-footer {
+  color: var(--white-color);
+}
+
+.address .link {
+  color: var(--white-color);
+}
+
+.address .link-footer {
+  color: var(--primary-text-color);
+}
+
+/* Filtr */
+.button.secondary:hover,
+.button.secondary:focus {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
